@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Environment variables & secrets (NEVER commit real keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+supabase/.temp/
+supabase/.branches/
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Reference repositories cloned earlier in workspace
+will-you-go-on-a-date-with-me/
+Will-you-go-on-a-date-with-me-/
+

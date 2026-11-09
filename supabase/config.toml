@@ -1,0 +1,5 @@
+project_id = "a-little-something-for-selaelo"
+
+[functions.submit-response]
+verify_jwt = false
+
